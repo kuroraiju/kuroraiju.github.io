@@ -4,7 +4,7 @@ body {
 
 /* Grouped selectors */
 
-h1, p {
+h1, h2, p {
     color: #d1d1d1;
 }
 
