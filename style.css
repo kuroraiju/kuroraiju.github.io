@@ -1,0 +1,43 @@
+:root {
+    --color-1: #1a1a1a;
+    --color-2: #FFCD41;
+    --color-3: #d1d1d1;
+  }
+
+body {
+    background-color: var(--color-1);
+}
+
+/* Grouped selectors */
+
+h1, h2, p {
+    color: var(--color-3);
+}
+
+/* Individual selectors */
+
+
+
+a {
+    color: var(--color-2);
+}
+
+/* ID selectors */
+
+#container {
+    text-align: center;
+    max-width: 70%;
+    margin: auto;
+}
+
+#speech-bubble {
+    border: 1px;
+    padding: 5px;
+    border-color: white;
+}
+
+/* Class selectors */
+
+.quote {
+    font-style: italic;
+}
